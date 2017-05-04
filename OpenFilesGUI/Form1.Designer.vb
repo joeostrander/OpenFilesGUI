@@ -37,7 +37,9 @@ Partial Class Form1
         Me.ColumnHeaderID = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ContextMenuStripListView = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.CloseFileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ShowInExplorerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExportListToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ClearResultsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TextBoxFilter = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -46,8 +48,6 @@ Partial Class Form1
         Me.RemoveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContextMenuStripForm = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ShowInExplorerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ClearResultsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip1.SuspendLayout()
         Me.ContextMenuStripListView.SuspendLayout()
         Me.ContextMenuStripServer.SuspendLayout()
@@ -117,7 +117,7 @@ Partial Class Form1
         '
         'ColumnHeaderNumberOfLocks
         '
-        Me.ColumnHeaderNumberOfLocks.Tag = "Number"
+        Me.ColumnHeaderNumberOfLocks.Tag = "Numeric"
         Me.ColumnHeaderNumberOfLocks.Text = "# Locks"
         '
         'ColumnHeaderOpenMode
@@ -128,7 +128,7 @@ Partial Class Form1
         '
         'ColumnHeaderID
         '
-        Me.ColumnHeaderID.Tag = "Number"
+        Me.ColumnHeaderID.Tag = "Numeric"
         Me.ColumnHeaderID.Text = "ID"
         Me.ColumnHeaderID.Width = 0
         '
@@ -138,7 +138,7 @@ Partial Class Form1
         Me.ContextMenuStripListView.Name = "ContextMenuStrip1"
         Me.ContextMenuStripListView.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
         Me.ContextMenuStripListView.ShowImageMargin = False
-        Me.ContextMenuStripListView.Size = New System.Drawing.Size(152, 114)
+        Me.ContextMenuStripListView.Size = New System.Drawing.Size(152, 92)
         '
         'CloseFileToolStripMenuItem
         '
@@ -146,11 +146,23 @@ Partial Class Form1
         Me.CloseFileToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
         Me.CloseFileToolStripMenuItem.Text = "&Close Selected Files"
         '
+        'ShowInExplorerToolStripMenuItem
+        '
+        Me.ShowInExplorerToolStripMenuItem.Name = "ShowInExplorerToolStripMenuItem"
+        Me.ShowInExplorerToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
+        Me.ShowInExplorerToolStripMenuItem.Text = "&Show in Explorer"
+        '
         'ExportListToolStripMenuItem
         '
         Me.ExportListToolStripMenuItem.Name = "ExportListToolStripMenuItem"
         Me.ExportListToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
         Me.ExportListToolStripMenuItem.Text = "&Export List"
+        '
+        'ClearResultsToolStripMenuItem
+        '
+        Me.ClearResultsToolStripMenuItem.Name = "ClearResultsToolStripMenuItem"
+        Me.ClearResultsToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
+        Me.ClearResultsToolStripMenuItem.Text = "Clear &Results"
         '
         'TextBoxFilter
         '
@@ -213,18 +225,6 @@ Partial Class Form1
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
         Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(82, 22)
         Me.AboutToolStripMenuItem.Text = "&About"
-        '
-        'ShowInExplorerToolStripMenuItem
-        '
-        Me.ShowInExplorerToolStripMenuItem.Name = "ShowInExplorerToolStripMenuItem"
-        Me.ShowInExplorerToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
-        Me.ShowInExplorerToolStripMenuItem.Text = "&Show in Explorer"
-        '
-        'ClearResultsToolStripMenuItem
-        '
-        Me.ClearResultsToolStripMenuItem.Name = "ClearResultsToolStripMenuItem"
-        Me.ClearResultsToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
-        Me.ClearResultsToolStripMenuItem.Text = "Clear &Results"
         '
         'Form1
         '
