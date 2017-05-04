@@ -222,22 +222,22 @@ Public Class Form1
                 'Console.WriteLine(intTotalEntriesFound)
 
                 Dim boolAdd As Boolean = False
-                If strFilter = "" Then
-                    boolAdd = True
-                Else
-                    If entry.fi3_PathName.ToLower().Contains(strFilter.ToLower()) Or entry.fi3_UserName.ToLower().Contains(strFilter.ToLower()) Then
-                        boolAdd = True
-                    End If
-                End If
+                'If strFilter = "" Then
+                '    boolAdd = True
+                'Else
+                '    If entry.fi3_PathName.ToLower().Contains(strFilter.ToLower()) Or entry.fi3_UserName.ToLower().Contains(strFilter.ToLower()) Then
+                '        boolAdd = True
+                '    End If
+                'End If
 
-                If boolAdd Then
-                    Dim lvi As ListViewItem = New ListViewItem(entry.fi3_PathName)
-                    lvi.SubItems.Add(entry.fi3_UserName)
-                    lvi.SubItems.Add(entry.fi3_NumLocks)
-                    lvi.SubItems.Add(GetPermissions(entry.fi3_Permissions))
-                    lvi.SubItems.Add(entry.fi3_Id)
-                    listViewItems.Add(lvi)
-                End If
+                'If boolAdd Then
+                Dim lvi As ListViewItem = New ListViewItem(entry.fi3_PathName)
+                lvi.SubItems.Add(entry.fi3_UserName)
+                lvi.SubItems.Add(entry.fi3_NumLocks)
+                lvi.SubItems.Add(GetPermissions(entry.fi3_Permissions))
+                lvi.SubItems.Add(entry.fi3_Id)
+                listViewItems.Add(lvi)
+                'End If
 
 
 
@@ -407,7 +407,15 @@ Public Class Form1
     End Sub
 
     Private Sub ListViewAdd()
-        ListView1.Items.AddRange(listViewItems.ToArray)
+        Dim lvNew As List(Of ListViewItem) = New List(Of ListViewItem)
+
+        For Each lvi As ListViewItem In listViewItems
+            If lvi.SubItems(0).Text.ToLower().Contains(TextBoxFilter.Text.ToLower()) Or lvi.SubItems(1).Text.ToLower().Contains(TextBoxFilter.Text.ToLower()) Then
+                lvNew.Add(lvi)
+            End If
+        Next
+
+        ListView1.Items.AddRange(lvNew.ToArray)
     End Sub
 
 
@@ -440,9 +448,7 @@ Public Class Form1
 
 
     Private Sub TextBoxFilter_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBoxFilter.TextChanged
-        If TextBoxFilter.Text.Length > 2 Then
-            FilterResults()
-        End If
+        FilterResults()
     End Sub
     Private Sub FilterResults()
         If listViewItems Is Nothing Then Exit Sub
@@ -557,7 +563,6 @@ Public Class Form1
 
 
     Private Sub UpdateStatusText(ByVal strNewText As String)
-        Console.WriteLine("update status text: {0}", strNewText)
         ToolStripStatusLabel1.Text = strNewText
         StatusStrip1.Refresh()
     End Sub
@@ -605,7 +610,6 @@ Public Class Form1
         Next
 
         For Each item In ComboBoxServer.Items
-            Console.WriteLine(item.GetType().ToString())
             'Dim boolFound As Boolean
             If Not regKey.GetValueNames().Contains(item.ToString().ToLower()) Then
                 regKey.SetValue(item.ToString().ToLower(), "")
@@ -673,7 +677,6 @@ Public Class Form1
 
         Dim boolExists As Boolean = FileOrFolderExists(strFilePath)
 
-        Console.WriteLine(strFilePath)
         If boolExists Then
             ExploreFolder(strFilePath)
         Else
