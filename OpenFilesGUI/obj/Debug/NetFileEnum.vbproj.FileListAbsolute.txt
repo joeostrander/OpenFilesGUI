@@ -1,0 +1,34 @@
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NetFileEnum\bin\Debug\NetFileEnum.exe
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NetFileEnum\bin\Debug\NetFileEnum.pdb
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NetFileEnum\bin\Debug\NetFileEnum.xml
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NetFileEnum\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NetFileEnum\obj\Debug\NetFileEnum.Form1.resources
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NetFileEnum\obj\Debug\NetFileEnum.Resources.resources
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NetFileEnum\obj\Debug\NetFileEnum.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NetFileEnum\obj\Debug\NetFileEnum.exe
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NetFileEnum\obj\Debug\NetFileEnum.xml
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NetFileEnum\obj\Debug\NetFileEnum.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\NetFileEnum\NetFileEnum\bin\Debug\NetFileEnum.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\NetFileEnum\NetFileEnum\bin\Debug\NetFileEnum.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\NetFileEnum\NetFileEnum\bin\Debug\NetFileEnum.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\NetFileEnum\NetFileEnum\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\NetFileEnum\NetFileEnum\obj\Debug\NetFileEnum.Form1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\NetFileEnum\NetFileEnum\obj\Debug\NetFileEnum.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\NetFileEnum\NetFileEnum\obj\Debug\NetFileEnum.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\NetFileEnum\NetFileEnum\obj\Debug\NetFileEnum.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\NetFileEnum\NetFileEnum\obj\Debug\NetFileEnum.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\NetFileEnum\NetFileEnum\obj\Debug\NetFileEnum.pdb
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\NetFileEnum_GUI\NetFileEnum\bin\Debug\NetFileEnum.exe
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\NetFileEnum_GUI\NetFileEnum\bin\Debug\NetFileEnum.pdb
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\NetFileEnum_GUI\NetFileEnum\bin\Debug\NetFileEnum.xml
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\NetFileEnum_GUI\NetFileEnum\obj\Debug\NetFileEnum.vbprojResolveAssemblyReference.cache
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\NetFileEnum_GUI\NetFileEnum\obj\Debug\NetFileEnum.Form1.resources
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\NetFileEnum_GUI\NetFileEnum\obj\Debug\NetFileEnum.Resources.resources
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\NetFileEnum_GUI\NetFileEnum\obj\Debug\NetFileEnum.vbproj.GenerateResource.Cache
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\NetFileEnum_GUI\NetFileEnum\obj\Debug\NetFileEnum.exe
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\NetFileEnum_GUI\NetFileEnum\obj\Debug\NetFileEnum.xml
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\NetFileEnum_GUI\NetFileEnum\obj\Debug\NetFileEnum.pdb
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\OpenFilesGui\NetFileEnum\obj\Debug\NetFileEnum.exe
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\OpenFilesGui\NetFileEnum\obj\Debug\NetFileEnum.xml
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\OpenFilesGui\NetFileEnum\obj\Debug\NetFileEnum.pdb
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\OpenFilesGui\NetFileEnum\bin\Debug\OpenFilesGUI.exe.config

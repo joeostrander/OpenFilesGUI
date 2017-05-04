@@ -1,0 +1,106 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NetFileEnum
+</name>
+</assembly>
+<members>
+<member name="T:NetFileEnum.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:NetFileEnum.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:NetFileEnum.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:NetFileEnum.Form1.NERR.NERR_Success">
+ <summary>
+ Operation was a success.
+ </summary>
+</member>
+<member name="F:NetFileEnum.Form1.NERR.ERROR_MORE_DATA">
+ <summary>
+ More data available to read. dderror getting all data.
+ </summary>
+</member>
+<member name="F:NetFileEnum.Form1.NERR.ERROR_NO_BROWSER_SERVERS_FOUND">
+ <summary>
+ Network browsers not available.
+ </summary>
+</member>
+<member name="F:NetFileEnum.Form1.NERR.ERROR_INVALID_LEVEL">
+ <summary>
+ LEVEL specified is not valid for this call.
+ </summary>
+</member>
+<member name="F:NetFileEnum.Form1.NERR.ERROR_ACCESS_DENIED">
+ <summary>
+ Security context does not have permission to make this call.
+ </summary>
+</member>
+<member name="F:NetFileEnum.Form1.NERR.ERROR_INVALID_PARAMETER">
+ <summary>
+ Parameter was incorrect.
+ </summary>
+</member>
+<member name="F:NetFileEnum.Form1.NERR.ERROR_NOT_ENOUGH_MEMORY">
+ <summary>
+ Out of memory.
+ </summary>
+</member>
+<member name="F:NetFileEnum.Form1.NERR.ERROR_NETWORK_BUSY">
+ <summary>
+ Unable to contact resource. Connection timed out.
+ </summary>
+</member>
+<member name="F:NetFileEnum.Form1.NERR.ERROR_BAD_NETPATH">
+ <summary>
+ Network Path not found.
+ </summary>
+</member>
+<member name="F:NetFileEnum.Form1.NERR.ERROR_NO_NETWORK">
+ <summary>
+ No available network connection to make call.
+ </summary>
+</member>
+<member name="F:NetFileEnum.Form1.NERR.ERROR_INVALID_HANDLE_STATE">
+ <summary>
+ Pointer is not valid.
+ </summary>
+</member>
+<member name="F:NetFileEnum.Form1.NERR.ERROR_EXTENDED_ERROR">
+ <summary>
+ Extended Error.
+ </summary>
+</member>
+<member name="F:NetFileEnum.Form1.NERR.NERR_BASE">
+ <summary>
+ Base.
+ </summary>
+</member>
+<member name="F:NetFileEnum.Form1.NERR.NERR_UnknownDevDir">
+ <summary>
+ Unknown Directory.
+ </summary>
+</member>
+<member name="F:NetFileEnum.Form1.NERR.NERR_DuplicateShare">
+ <summary>
+ Duplicate Share already exists on server.
+ </summary>
+</member>
+<member name="F:NetFileEnum.Form1.NERR.NERR_BufTooSmall">
+ <summary>
+ Memory allocation was to small.
+ </summary>
+</member>
+</members>
+</doc>

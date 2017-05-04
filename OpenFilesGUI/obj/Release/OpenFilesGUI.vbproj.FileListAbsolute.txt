@@ -1,0 +1,12 @@
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\OpenFilesGUI\OpenFilesGUI\bin\Release\OpenFilesGUI.exe.config
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\OpenFilesGUI\OpenFilesGUI\bin\Release\OpenFilesGUI.exe
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\OpenFilesGUI\OpenFilesGUI\bin\Release\OpenFilesGUI.pdb
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\OpenFilesGUI\OpenFilesGUI\bin\Release\OpenFilesGUI.xml
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\OpenFilesGUI\OpenFilesGUI\obj\Release\OpenFilesGUI.AboutBox1.resources
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\OpenFilesGUI\OpenFilesGUI\obj\Release\OpenFilesGUI.Form1.resources
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\OpenFilesGUI\OpenFilesGUI\obj\Release\OpenFilesGUI.Resources.resources
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\OpenFilesGUI\OpenFilesGUI\obj\Release\OpenFilesGUI.vbproj.GenerateResource.Cache
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\OpenFilesGUI\OpenFilesGUI\obj\Release\OpenFilesGUI.exe
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\OpenFilesGUI\OpenFilesGUI\obj\Release\OpenFilesGUI.xml
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\OpenFilesGUI\OpenFilesGUI\obj\Release\OpenFilesGUI.pdb
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\OpenFilesGUI\OpenFilesGUI\obj\Release\OpenFilesGUI.vbprojResolveAssemblyReference.cache
